@@ -2,6 +2,10 @@
 
 A NodeJS library that lets you open file dialogs
 
+## Current support
+
+Only supports Windows until I can figure out how to package for Linux aswell using PyInstaller.
+
 ## Getting started
 ### Installation
 ```
