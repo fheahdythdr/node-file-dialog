@@ -12,8 +12,8 @@ export function dialog(config: Config) {
     cmd = path.join(cmd, 'linux', filename)
   }
   if (process.platform === 'win32') {
-    var filename = 'dialog'
-    cmd = path.join(cmd, 'win', filename + '.exe')
+    var filename = 'dialog/dialog'
+    cmd = path.join(cmd, filename + '.exe')
   }
   cmd += '"';
   if (config.dialogtype === 'directory')
