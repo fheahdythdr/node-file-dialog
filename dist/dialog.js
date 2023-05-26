@@ -19,7 +19,7 @@ function dialog(config) {
     }
     if (process.platform === 'win32') {
         var filename = 'dialog/dialog';
-        cmd = path_1.default.join(cmd, 'win', filename + '.exe');
+        cmd = path_1.default.join(cmd, filename + '.exe');
     }
     cmd += '"';
     if (config.dialogtype === 'directory')
