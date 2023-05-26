@@ -87,3 +87,11 @@ dialog(config).then((result) => {
     console.error(err.message);
 });
 ```
+
+### Extra info
+
+Unpacked size is 21.9 MB due to pre-packing Python311 with PyInstaller so the user doesn't need Python to use the python file.
+
+### Changelog
+
+Update README.md to include info about file size
