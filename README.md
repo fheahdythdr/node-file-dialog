@@ -19,7 +19,7 @@ Optional properties are:
 ext: default file extension
 types: Object<string, string> (available file extensions you can pick from/save as)
 startdir: start directory for file explorer
-startfile: file selected when file explorer opens
+startfile: file selected when file explorer opens (also default filename in save as dialog)
 title: title of explorer window
 ```
 
