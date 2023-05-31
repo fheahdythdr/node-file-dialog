@@ -1,6 +1,6 @@
 == todo ==
 
-build linux version of dialog.exe
+build linux version of dialog.py
 
 == in progress ==
 
